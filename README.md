@@ -23,14 +23,14 @@ The API  should be accessible now at our local host i.e http://localhost:8000
 
 ### Weather data
 ```
-GET /api/weather/
+GET /weather/api/
 ```
 This endpoint returns a paginated list of weather records. You can filter the results by date and station using query parameters:
 GET /api/weather/?date=19850103&station=USC00257715
 
 ### Statistics
 ```
-GET /api/weather/stats/
+GET /weather/api/stats/
 ```
 This endpoint returns statistical information about the weather data. You can filter the results by date and station using query parameters, in the same way as the /api/weather/ endpoint.
 
