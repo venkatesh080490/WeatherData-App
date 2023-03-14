@@ -1,4 +1,6 @@
 # WeatherData APIs
+As per the Exercise requirement these APIs were develeoped by using wellknown Django Python web framework and database schema designed is SQLite.
+
 Using these apis, we will be able to access weather details for various locaitons and years from 1985-01-01 to 2014-12-31. This data can be filtered by date and location. These APIs also provide statistical information on the weather data.
 
 ## Functionalities of the APIs
@@ -6,7 +8,7 @@ We can retrieve weather data for a specific date and location
 As well as we should be able to retrive statistical information on the weather data, including the maximum, minimum, and total precipitation for a specific date and location
 
 # Installation of the Application
-we should use below command to install the required packages for the app.
+In order to start with setup locally , we suggest create a VirtualEnv locally and then we should use below command to install the required packages for the app.
 
 ```
 pip install -r requirements.txt
