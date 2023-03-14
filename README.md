@@ -19,7 +19,7 @@ Start the server by using the below command (Please make sure you are on the rig
 ```
 python manage.py runserver
 ```
-The API  should be accessible now at our local host i.e http://localhost:8000
+Server should be up and running & will be accessible now at our local host i.e http://localhost:8000
 
 # Endpoints:
 
